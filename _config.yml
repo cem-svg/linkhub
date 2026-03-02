@@ -6,7 +6,7 @@ name: Cinghiali Elettrici Multifase  # Name of your website
 tagline: Links  # Set your preferred page title
 description: Musica moderna in Calabrese.  # Also used as a meta description
 favicon:
-  path: https://i.ibb.co/SBRmBmt/favicon.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
+  path: assets/favicon.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
   type: png # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
 logo: assets/small-logo.png # Path / URL to the logo (e.g., 'assets/images/logo.png')
 url: https://cinghialielettricimultifase.com # URL of your website
