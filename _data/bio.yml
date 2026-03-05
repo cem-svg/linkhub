@@ -1,4 +1,4 @@
-- name: YouTube Shorts
+- name: Sponsors
   ratio: vertical # For vertical 9:16 aspect ratio. Ideal for video thumbnails, such as those used on Instagram Reels, YouTube Shorts and TikTok. To use the default 1:1 aspect ratio (square), remove this variable.
   items:
     - url: https://www.example.com
@@ -10,13 +10,13 @@
     - url: https://www.example.com
       image: https://picsum.photos/720/1280.webp
 
-- name: Instagram
-  items:
-    - url: https://www.example.com
-      image: https://picsum.photos/700/400.webp # You can use paths to images in the assets folder, e.g., assets/images/insta.jpg.
+# - name: Instagram
+#   items:
+#     - url: https://www.example.com
+#       image: https://picsum.photos/700/400.webp # You can use paths to images in the assets folder, e.g., assets/images/insta.jpg.
 
-    - url: https://www.example.org
-      image: https://picsum.photos/500.webp
+#     - url: https://www.example.org
+#       image: https://picsum.photos/500.webp
 
-    - url: https://www.example.com
-      image: https://picsum.photos/250/300.webp
+#     - url: https://www.example.com
+#       image: https://picsum.photos/250/300.webp
