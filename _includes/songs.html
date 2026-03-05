@@ -1,0 +1,49 @@
+<main>
+    {% if site.data.songs.featured %}
+    {% assign f = site.data.songs.featured %}
+    <h2 class="text-center section-label">Nuova Uscita</h2>
+    <div class="featured-release">
+      <a class="featured-art-link" href="{{ f.url }}" target="_blank" rel="noopener">
+        <img class="featured-art" src="{{ f.image }}" alt="{{ f.title }}">
+      </a>
+      <a class="featured-btn" href="{{ f.url }}" target="_blank" rel="noopener">
+        {{ f.title }} - Cinghiali Elettrici Multifase
+      </a>
+    </div>
+    {% endif %}
+
+    {% for button in site.data.songs.buttons %}
+    {% if button.category %}<h2 class="text-center section-label">{{ button.category }}</h2>{% endif %}
+    {% for item in button.items %}
+    <a class="music-card" href="{{ item.url }}" target="_blank">
+        {% if item.image %}
+        <img class="music-card-thumb" src="{{ item.image }}" alt="{{ item.title }}">
+        {% elsif item.custom-icon %}
+        <div class="music-card-thumb music-card-thumb--icon">
+            <span class="custom-icon">{{ item.custom-icon }}</span>
+        </div>
+        {% elsif item.icon %}
+        <div class="music-card-thumb music-card-thumb--icon">
+            <span class="iconify" data-icon="{{ item.icon }}"></span>
+        </div>
+        {% else %}
+        <div class="music-card-thumb music-card-thumb--icon">♪</div>
+        {% endif %}
+
+        <div class="music-card-info">
+            <span class="music-card-title">
+                {{ item.title }}
+                {% if item.tag %}<span class="tag is-small bd-success text-success">{{ item.tag }}</span>{% endif %}
+            </span>
+            {% if item.subtitle %}<span class="music-card-subtitle">{{ item.subtitle }}</span>{% endif %}
+        </div>
+
+        {% if item.pre %}
+        <span class="music-card-btn">Prenota</span>
+        {% else %}
+        <span class="music-card-btn">Ascolta</span>
+        {% endif %}
+    </a>
+    {% endfor %}
+    {% endfor %}
+</main>
