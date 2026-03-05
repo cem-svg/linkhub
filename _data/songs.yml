@@ -1,5 +1,6 @@
 featured:
   title: "Vacante"
+  subtitle: "Data uscita: 6 Marzo 2026"
   image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--C3B35507-6585-4F6B-B7C4058D8DCCB2C7--0--10151238--coverwt.png?fm=jpg&q=75&w=800&s=0c950bce40229a59fd0015c20eb1dfe3
   url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/vacante
 
@@ -8,13 +9,13 @@ buttons:
     items:
 
       - title: "Mangia"
-        subtitle: "In arrivo il 20 Marzo"
+        subtitle: "In arrivo il 20 Marzo 2026"
         image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--D2F7B0A2-E540-4F4A-A7C0353BAB39B790--0--3129955--coverwt.png?fm=jpg&q=75&w=800&s=3425f6d0d2ba81a0e6443ba42a1e4662
         url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/mangia
         pre: true
 
       - title: "A sazizza"
-        subtitle: "In arrivo il 3 Aprile"
+        subtitle: "In arrivo il 3 Aprile 2026"
         image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--A8E6B538-B754-4B84-8BDBBF0CECCBB860--0--1714856--coverwt.png?fm=jpg&q=75&w=800&s=54f52341f48ee15e89a850f26dd0ff86
         url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/a-sazizza
         pre: true
