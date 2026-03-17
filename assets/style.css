@@ -170,3 +170,7 @@ body {
 
 /* Keep container constrained */
 .container { max-width: 560px; }
+
+div.email > span:nth-child(2) {
+	display: none;
+}
