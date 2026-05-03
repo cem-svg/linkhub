@@ -1,17 +1,29 @@
-<main>
+<nav class="nav">
+    <div class="nav-center" style="flex-direction:column; align-items:center;">
     {% for button in site.data.links.buttons %}
-    <h2 class="text-center">{{ button.category }}</h2>
+    <!-- <h2 class="text-center">{{ button.category }}</h2> -->
+    <div style="display:flex; flex-direction:row; flex-wrap:wrap; gap:.75em; justify-content:center; width:100%;">
     {% for item in button.items %}
-    <div class="row">
-        {% if item.tag %}
-        <div class="col link is-center">
-            {% else %}
-            <div class="col is-center">
-                {% endif %}
-                {% if site.data.links.fixed-button-width == true %}
-                <a class="button outline secondary" style="width:50%" href="{{ item.url }}" target="_blank">{% else %}<a class="button outline secondary" href="{{ item.url }}" target="_blank">{% endif %}{% if site.data.links.icon-position == "right" %}{% if item.tag %}<span class="tag is-small bd-success text-success" style="margin-right:.5em">{{ item.tag}}</span>{% endif %}{{ item.title }}{% if item.icon %}<span class="iconify-inline" data-icon="{{ item.icon }}" style="margin-left:.5em;margin-right:0"></span>{% endif %}{% if item.custom-icon %}<span class="custom-icon" style="margin-left:.5em">{{ item.custom-icon }}</span>{% endif %}</a>{% else %}{% if item.icon %}<span class="iconify-inline" data-icon="{{ item.icon }}"></span>{% endif %}{% if item.custom-icon %}<span class="custom-icon" style="margin-right:.5em">{{ item.custom-icon}}</span>{% endif %}{{ item.title }}{% if item.tag %}<span class="tag is-small bd-success text-success" style="margin-left:.5em">{{ item.tag }}</span>{% endif %}</a>{% endif %}
-            </div>
-        </div>
-        {% endfor %}
-        {% endfor %}
-</main>
+                <a href="{{ item.url }}" target="_blank" style="
+                  display:inline-flex;
+                  align-items:center;
+                  gap:.6em;
+                  padding:.85rem 1.8rem;
+                  background:#1e2030;
+                  border:1px solid rgba(255,255,255,.1);
+                  border-radius:999px;
+                  color:#f0ede8;
+                  font-size:1.4rem;
+                  font-weight:600;
+                  text-decoration:none;
+                  transition:background .18s ease, transform .18s ease, border-color .18s ease;
+                  cursor:pointer;
+                  white-space:nowrap;
+                  box-shadow:0 2px 12px rgba(0,0,0,.3);
+                " onmouseover="this.style.background='#252840';this.style.borderColor='rgba(255,255,255,.22)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#1e2030';this.style.borderColor='rgba(255,255,255,.1)';this.style.transform='translateY(0)'">{% if site.data.links.icon-position == "right" %}{% if item.tag %}<span class="tag is-small bd-success text-success" style="margin-right:.5em">{{ item.tag}}</span>{% endif %}{{ item.title }}{% if item.icon %}<span class="iconify-inline" data-icon="{{ item.icon }}" style="margin-left:.5em;margin-right:0"></span>{% endif %}{% if item.custom-icon %}<span class="custom-icon" style="margin-left:.5em">{{ item.custom-icon }}</span>{% endif %}{% else %}{% if item.icon %}<span class="iconify-inline" style="color: {{ item.color }}" data-icon="{{ item.icon }}"></span>{% endif %}{% if item.custom-icon %}<span class="custom-icon" style="margin-right:.5em">{{ item.custom-icon}}</span>{% endif %}{{ item.title }}{% if item.tag %}<span class="tag is-small bd-success text-success" style="margin-left:.5em">{{ item.tag }}</span>{% endif %}{% endif %}</a>
+    {% endfor %}
+    </div>
+        <hr style="border:none; margin:0.5rem 0;">
+    {% endfor %}
+    </div>
+</nav>

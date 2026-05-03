@@ -23,6 +23,11 @@
   icon: ri:instagram-fill
   color: '#E4405F'
 
+- name: tiktok
+  url: https://www.tiktok.com/@cinghialielettricimf
+  icon: ri:tiktok-fill
+  color: '#FFFFFF'
+
 # - name: x
 #   url: https://x.com/example
 #   icon: ri:twitter-x-fill

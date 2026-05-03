@@ -1,11 +1,12 @@
 fixed-button-width: false # Set to true/false
 icon-position: left # Set to left/right
 buttons:
-  - category: Piattaforme Streaming
+  - category: Principali Piattaforme Streaming
     items:
     - title: Spotify
       url: https://open.spotify.com/artist/1mjERLHFcINTLNTmIYCCtk
       icon: ri:spotify-fill # Icons are optional
+      color: '#00FF00'
       # tag: Tag
 
     - title: YouTube
@@ -16,6 +17,21 @@ buttons:
     - title: Apple Music
       url: https://music.apple.com/us/artist/cinghiali-elettrici-multifase/1853705512
       icon: ri:apple-fill
+      color: '#FFFFFF'
+
+    - title: Amazon Music
+      url: https://music.amazon.com/artists/B0G2QXD342/cinghiali-elettrici-multifase
+      icon: ri:amazon-fill
+      color: '#FF9900'
+
+    - title: Pandora
+      url: https://www.pandora.com/artist/cinghiali-elettrici-multifase/ARrvPx9kj6vvJVP
+      icon: simple-icons:pandora
+      color: '#3668FF'
+
+    - title: TIDAL
+      url: https://tidal.com/artist/70005800
+      icon: simple-icons:tidal
       color: '#FFFFFF'
 
     
