@@ -38,6 +38,11 @@ buttons:
       icon: ri:instagram-fill
       color: '#E4405F'
 
+    - title: TikTok
+      url: https://www.tiktok.com/@cinghialielettricimf
+      icon: ri:tiktok-fill
+      color: '#FFFFFF'
+
   # - category: Works
   #   items:
   #   - title: Example 4
