@@ -5,13 +5,13 @@ featured:
   
   
 buttons:
-  # - category: "In arrivo u 26 Giugnu 2026"
-  #   items:
-  #     - title: "Ridimu pe' no' ciangira"
-  #       subtitle: "Il primo album dei Cinghiali Elettrici Multifase"
-  #       image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--30A9DEDB-B70B-4CFB-9D70F17DAD974C40--0--1671857--cover.png?fm=jpg&q=75&w=800&s=dca1bd255404e446cb3d16c287a4bcea
-  #       url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/ridimu-pe-no-ciangira
-  #       pre: true    
+  - category: "In arrivo"
+    items:
+      - title: "'E sa manera"
+        subtitle: "Nesce u 26 Giugnu 2026"
+        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--1BDD5C0B-C335-4347-96434F298D405CD8--0--2306805--coverwt.png?fm=jpg&q=75&w=800&s=255e3077711f6cff8cf032c4bcbc11c8
+        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/e-sa-manera
+        pre: true    
       
   - category: "Canzuni belli"
     items:
