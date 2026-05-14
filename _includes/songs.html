@@ -1,13 +1,13 @@
 <main>
     {% if site.data.songs.featured %}
     {% assign f = site.data.songs.featured %}
-    <h2 class="text-center section-label">Chista nesciu mo!</h2>
+    <h2 class="text-center section-label">Chistu nesciu mò!</h2>
     <div class="featured-release">
       <a class="featured-art-link" href="{{ f.url }}" target="_blank" rel="noopener">
         <img class="featured-art" src="{{ f.image }}" alt="{{ f.title }}">
       </a>
       <a class="featured-btn" href="{{ f.url }}" target="_blank" rel="noopener">
-        {{ f.title }} - {{ f.subtitle }}
+        {{ f.title }} 
       </a>
       
     </div>
@@ -40,9 +40,9 @@
         </div>
 
         {% if item.pre %}
-        <span class="music-card-btn">Prenotata</span>
+        <span class="music-card-btn">Va prenotala</span>
         {% else %}
-        <span class="music-card-btn">Arricchia</span>
+        <span class="music-card-btn">Va sentila</span>
         {% endif %}
     </a>
     {% endfor %}
