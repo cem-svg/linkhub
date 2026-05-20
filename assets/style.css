@@ -93,7 +93,7 @@ body {
 /* "Listen" button pill */
 .music-card-btn {
   flex-shrink: 0;
-  background: #2e3249;
+  background: #168d54;
   color: #d8daf0;
   font-size: 1.35rem;
   font-weight: 700;
@@ -102,9 +102,9 @@ body {
   white-space: nowrap;
   transition: background .18s ease;
 }
-.music-card:hover .music-card-btn {
+/*.music-card:hover .music-card-btn {
   background: #3a3f5c;
-}
+}*/
 
 /* ============================================
    Featured Release Block

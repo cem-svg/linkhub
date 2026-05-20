@@ -6,10 +6,29 @@
       <a class="featured-art-link" href="{{ f.url }}" target="_blank" rel="noopener">
         <img class="featured-art" src="{{ f.image }}" alt="{{ f.title }}">
       </a>
-      <a class="featured-btn" href="{{ f.url }}" target="_blank" rel="noopener">
+     <!--  <a class="featured-btn" href="{{ f.url }}" target="_blank" rel="noopener">
         {{ f.title }} 
-      </a>
+       </a>-->
+
+       <div class="music-card"  target="_blank">
+        <div class="music-card-info">
+            <span class="music-card-title">
+                {{ f.title }}
+            </span>
+            {% if f.subtitle %}<span class="music-card-subtitle">{{ f.subtitle }}</span>{% endif %}
+        </div>
+
+
+        <a href="{{ f.url }}" target="_blank"><span class="music-card-btn">Va sentilu</span></a>
+        
+        {% if f.cd %}
+            <a href="{{ f.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
+        {% endif %}
+      </div>
+
+    
       
+
     </div>
     {% endif %}
 
@@ -40,7 +59,7 @@
         </div>
 
         {% if item.pre %}
-        <span class="music-card-btn">Va prenotala</span>
+        <span class="music-card-btn">Aspettala</span>
         {% else %}
         <span class="music-card-btn">Va sentila</span>
         {% endif %}
