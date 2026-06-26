@@ -55,11 +55,7 @@
         {% if item.pre %}
         <span class="music-card-btn" style="background-color: #8d7816;">Aspettala</span>
         {% else %}
-        <span class="music-card-btn">Va sentila</span>
-        {% if item.cd %}
-            <a href="{{ f.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
-        {% endif %}
-        
+        <span class="music-card-btn">Va sentila</span> 
         {% endif %}
     </a>
     {% endfor %}
