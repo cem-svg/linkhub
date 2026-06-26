@@ -32,7 +32,7 @@
     {% for button in site.data.songs.buttons %}
     {% if button.category %}<h2 class="text-center section-label">{{ button.category }}</h2>{% endif %}
     {% for item in button.items %}
-    <a class="music-card" target="_blank">
+    <div class="music-card" target="_blank">
         {% if item.image %}
         <img class="music-card-thumb" src="{{ item.image }}" alt="{{ item.title }}">
         {% elsif item.custom-icon %}
@@ -56,14 +56,14 @@
         </div>
 
         {% if item.pre %}
-        <a href="{{ item.url }}" class="music-card-btn" style="background-color: #8d7816;">Aspettala</a>
+        <a href="{{ item.url }}"><span class="music-card-btn" style="background-color: #8d7816;">Aspettala</span></a>
         {% else %}
         <a href="{{ item.url }}" target="_blank"><span class="music-card-btn">Va sentila</span></a>
         {% if item.cd %}
             <a href="{{ item.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
         {% endif %}
         {% endif %}
-    </a>
+    </div>
     {% endfor %}
     {% endfor %}
 </main>
