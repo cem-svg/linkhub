@@ -17,7 +17,7 @@
             </span>
             {% if f.subtitle %}<span class="music-card-subtitle">{{ f.subtitle }}</span>{% endif %}
         </div>
-        <a href="{{ f.url }}" target="_blank"><span class="music-card-btn">Va sentila</span></a>
+        <a href="{{ f.url }}" target="_blank"><span class="music-card-btn">Va senti</span></a>
         {% if f.cd %}
             <a href="{{ f.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
         {% endif %}
@@ -58,7 +58,7 @@
         {% if item.pre %}
         <a href="{{ item.url }}"><span class="music-card-btn" style="background-color: #8d7816;">Aspettala</span></a>
         {% else %}
-        <a href="{{ item.url }}" target="_blank"><span class="music-card-btn">Va sentila</span></a>
+        <a href="{{ item.url }}" target="_blank"><span class="music-card-btn">Va senti</span></a>
         {% if item.cd %}
             <a href="{{ item.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
         {% endif %}
