@@ -29,10 +29,10 @@ buttons:
       icon: simple-icons:pandora
       color: '#3668FF'
 
-    - title: TIDAL
-      url: https://tidal.com/artist/70005800
-      icon: simple-icons:tidal
-      color: '#FFFFFF'
+    # - title: TIDAL
+    #   url: https://tidal.com/artist/70005800
+    #   icon: simple-icons:tidal
+    #   color: '#FFFFFF'
 
     
 
