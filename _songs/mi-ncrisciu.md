@@ -6,6 +6,9 @@ subtitle: "Singolo · 28 Agosto 2026"
 cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E153D688-3FB4-40AA-B11907587478A8C1--0--3322349--cover.png?fm=jpg&q=75&w=800&s=70e68604bc19e35478cf24a2b38a663e
 listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/mi-ncrisciu
 language: "Calabrese"
+player:
+  type: youtube-audio   # solo audio, senza video (usa "youtube" per il piccolo video)
+  id: uv8SqYFbDE8       # https://www.youtube.com/watch?v=uv8SqYFbDE8 (audio ufficiale su DistroKid/YouTube)
 
 notes:
   ncrisciu: >

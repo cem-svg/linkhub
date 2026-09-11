@@ -24,10 +24,66 @@
 
         <header class="lyrics-header">
             {% if page.cover %}<img class="lyrics-cover" src="{{ page.cover }}" alt="Copertina di {{ page.title | escape }}">{% endif %}
-            <div>
+            <div class="lyrics-header-info">
                 <h1 class="lyrics-title">{{ page.title | escape }}</h1>
-                {% if page.subtitle %}<p class="lyrics-subtitle">{{ page.subtitle | escape }}</p>{% endif %}
-                {% if page.listen_url %}<a class="music-card-btn lyrics-listen-btn" href="{{ page.listen_url }}" target="_blank" rel="noopener">Va senti</a>{% endif %}
+                <div class="lyrics-meta">
+                    {% if page.subtitle %}<span class="lyrics-subtitle">{{ page.subtitle | escape }}</span>{% endif %}
+                    {% if page.listen_url %}
+                    <a class="lyrics-platforms-link" href="{{ page.listen_url }}" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3zM5 5h5v2H5v12h12v-5h2v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></svg>
+                        Altre piattaforme
+                    </a>
+                    {% endif %}
+                </div>
+
+                {% if page.player %}
+                <div class="lyrics-header-player">
+                {% case page.player.type %}
+                {% when "youtube" %}
+                <div class="lyrics-player-embed lyrics-player-embed--youtube">
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/{{ page.player.id }}"
+                        title="{{ page.title | escape }}"
+                        loading="lazy"
+                        frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                {% when "youtube-audio" %}
+                <div class="lyrics-player-yt-audio" data-yt-id="{{ page.player.id }}">
+                    <button type="button" class="yt-audio-toggle" aria-label="Play">&#9654;</button>
+                    <div class="yt-audio-info">
+                        <span class="yt-audio-title">{{ page.title | escape }}</span>
+                        <div class="yt-audio-progress">
+                            <div class="yt-audio-progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="yt-audio-iframe-mount"></div>
+                </div>
+                {% when "spotify" %}
+                <div class="lyrics-player-embed lyrics-player-embed--spotify">
+                    <iframe
+                        src="https://open.spotify.com/embed/track/{{ page.player.id }}?utm_source=generator"
+                        loading="lazy"
+                        frameborder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+                {% when "soundcloud" %}
+                <div class="lyrics-player-embed lyrics-player-embed--soundcloud">
+                    <iframe
+                        src="https://w.soundcloud.com/player/?url={{ page.player.id | url_encode }}&color=%23168d54&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"
+                        loading="lazy"
+                        frameborder="0"></iframe>
+                </div>
+                {% when "audio" %}
+                <audio class="lyrics-player-audio" controls preload="none" src="{{ page.player.id }}"></audio>
+                {% when "embed" %}
+                <div class="lyrics-player-embed lyrics-player-embed--generic">
+                    <iframe src="{{ page.player.id }}" loading="lazy" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                {% endcase %}
+                </div>
+                {% endif %}
             </div>
         </header>
 
@@ -69,6 +125,9 @@
     </div>
 
     <script src="{{ '/assets/lyrics.js' | relative_url }}"></script>
+    {% if page.player.type == "youtube-audio" %}
+    <script src="{{ '/assets/lyrics-player.js' | relative_url }}"></script>
+    {% endif %}
 </body>
 
 </html>

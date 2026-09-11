@@ -7,6 +7,10 @@ subtitle: "Album o data di uscita"
 cover: https://...   # copertina, di solito la stessa di songs.yml
 listen_url: https://...   # link streaming/hyperfollow
 language: "Calabrese"   # etichetta della colonna del testo originale
+player:                     # facoltativo: piccolo player in alto a destra
+  type: youtube-audio       # youtube-audio | youtube | spotify | soundcloud | audio | embed
+  id: VIDEO_ID              # id YouTube (es. dQw4w9WgXcQ), id traccia Spotify,
+                            # URL del brano SoundCloud, URL file audio, o URL embed generico
 notes:
   esempio-id: >
     Spiegazione della frase evidenziata come [[esempio|esempio-id]] qui sotto.
