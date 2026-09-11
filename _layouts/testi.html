@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    {% if site.ga4 != null %}
+    {% include ga4.html %}
+    {% endif %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testi & Traduzioni — {{ site.name }}</title>
+    <meta name="description" content="Testi originali e traduzioni italiane delle canzoni di {{ site.name }}.">
+    <link rel="shortcut icon" href="{{ '/' | append: site.favicon.path | relative_url }}" type="image/{{ site.favicon.type }}">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/lyrics.css' | relative_url }}">
+</head>
+
+<body class="lyrics-page">
+    <div class="container lyrics-container">
+        <a class="back-link" href="{{ '/' | relative_url }}">&larr; Torna alla home</a>
+
+        <h1 class="text-center section-label">Testi &amp; Traduzioni</h1>
+        <p class="lyrics-intro text-center">Testo originale e traduzione italiana, riga per riga. Tocca le parole evidenziate per note e curiosità sul dialetto.</p>
+
+        <div class="lyrics-index-list">
+            {% assign songs = site.songs | where_exp: "s", "s.is_demo != true" | sort: "title" %}
+            {% for song in songs %}
+            <a class="music-card" href="{{ song.url | relative_url }}">
+                {% if song.cover %}
+                <img class="music-card-thumb" src="{{ song.cover }}" alt="{{ song.title | escape }}">
+                {% else %}
+                <div class="music-card-thumb music-card-thumb--icon">&#9834;</div>
+                {% endif %}
+                <div class="music-card-info">
+                    <span class="music-card-title">{{ song.title }}</span>
+                    {% if song.subtitle %}<span class="music-card-subtitle">{{ song.subtitle }}</span>{% endif %}
+                </div>
+                <span class="music-card-btn">Leggi</span>
+            </a>
+            {% endfor %}
+
+            {% if songs.size == 0 %}
+            <p class="text-center text-grey">Non ci sono ancora testi pubblicati. Aggiungine uno in <code>_songs/</code>.</p>
+            {% endif %}
+        </div>
+
+        {% assign demo = site.songs | where_exp: "s", "s.is_demo == true" | first %}
+        {% if demo %}
+        <p class="lyrics-demo-hint text-center">
+            Vuoi vedere come funzionano testo, traduzione e note? <a href="{{ demo.url | relative_url }}">Guarda la pagina di esempio &rarr;</a>
+        </p>
+        {% endif %}
+    </div>
+</body>
+
+</html>

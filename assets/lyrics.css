@@ -1,0 +1,119 @@
+/* ============================================
+   Testi & Traduzioni — pagine dei testi
+   ============================================ */
+
+.lyrics-page { background:#13141a; color:#f0ede8; min-height:100vh; }
+
+.lyrics-container { max-width:720px; margin:2.4rem auto 5rem; padding:0 1.4rem; box-sizing:border-box; }
+
+.back-link { display:inline-block; margin-bottom:1.6rem; color:#8b8fa8; font-size:1.3rem; text-decoration:none; }
+.back-link:hover { color:#f0ede8; }
+
+.lyrics-demo-badge {
+  display:inline-block; margin:0 0 1.2rem; padding:.5rem 1rem;
+  background:rgba(223,178,33,.15); border:1px solid rgba(223,178,33,.4);
+  color:#dfb221; border-radius:8px; font-size:1.2rem;
+}
+
+.lyrics-header { display:flex; gap:1.4rem; align-items:center; margin-bottom:1rem; flex-wrap:wrap; }
+.lyrics-cover { width:8rem; height:8rem; border-radius:12px; object-fit:cover; flex-shrink:0; }
+.lyrics-title { font-size:2.1rem; margin:0 0 .3rem; line-height:1.25; }
+.lyrics-subtitle { color:#8b8fa8; margin:0 0 .9rem; font-size:1.3rem; font-weight:600; }
+.lyrics-listen-btn { display:inline-block; }
+
+.lyrics-hint { font-size:1.2rem; color:#8b8fa8; margin:1.4rem 0 1.2rem; }
+.lyrics-intro { font-size:1.3rem; color:#8b8fa8; max-width:52rem; margin:0.6rem auto 0; }
+
+.lyrics-columns-label { display:none; }
+
+.lyrics-section-title {
+  font-size:1.15rem; text-transform:uppercase; letter-spacing:.1em;
+  color:#8b8fa8; margin:2.2rem 0 .8rem; font-weight:600;
+}
+.lyrics-section:first-child .lyrics-section-title { margin-top:1rem; }
+
+.lyrics-line {
+  display:flex; flex-direction:column; gap:.15rem;
+  padding:.15rem 0;
+}
+.lyrics-orig { margin:0; font-size:1.55rem; line-height:1.55; }
+.lyrics-it { margin:0; font-size:1.25rem; line-height:1.45; color:#8b8fa8; font-style:italic; }
+
+/* Highlighted phrase with a citation / explanation note */
+.lyric-note {
+  background:rgba(22,141,84,.22);
+  border-bottom:2px dotted #168d54;
+  border-radius:3px;
+  padding:0 .15em;
+  cursor:pointer;
+  color:inherit;
+  font-style:normal;
+}
+.lyric-note:hover,
+.lyric-note:focus-visible,
+.lyric-note.is-active {
+  background:rgba(22,141,84,.42);
+  outline:none;
+}
+.lyric-note--sample { cursor:default; }
+
+.lyrics-notes-free {
+  margin-top:2.6rem; padding-top:1.6rem;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#c7c9dc; font-size:1.35rem; line-height:1.6;
+}
+
+.lyrics-index-list { display:flex; flex-direction:column; gap:.9rem; margin-top:1.8rem; }
+.lyrics-demo-hint { margin-top:2.2rem; font-size:1.25rem; color:#8b8fa8; }
+.lyrics-demo-hint a { font-weight:600; }
+
+/* Popover shown when a highlighted phrase is tapped/clicked */
+.lyric-popover {
+  position:fixed;
+  max-width:320px;
+  background:#1e2030;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:12px;
+  padding:1.1rem 2.4rem 1.1rem 1.3rem;
+  box-shadow:0 8px 30px rgba(0,0,0,.45);
+  z-index:50;
+  font-size:1.3rem;
+  line-height:1.5;
+}
+.lyric-popover[hidden] { display:none; }
+.lyric-popover-text { margin:0; }
+.lyric-popover-close {
+  position:absolute; top:.3rem; right:.6rem;
+  background:none; border:none; color:#8b8fa8; font-size:1.8rem;
+  cursor:pointer; line-height:1; padding:.3rem;
+}
+.lyric-popover-close:hover { color:#f0ede8; }
+
+/* Desktop: original and translation side by side */
+@media screen and (min-width:700px) {
+  .lyrics-container { max-width:920px; }
+
+  .lyrics-columns-label {
+    display:flex; justify-content:space-between;
+    color:#8b8fa8; text-transform:uppercase; letter-spacing:.08em;
+    font-size:1.1rem; margin-bottom:.5rem; font-weight:600;
+  }
+  .lyrics-columns-label span { width:48%; }
+
+  .lyrics-line { flex-direction:row; align-items:flex-start; gap:2%; }
+  .lyrics-orig, .lyrics-it { width:49%; flex-shrink:0; margin-top:.1rem; }
+  .lyrics-it { border-left:1px solid rgba(255,255,255,.08); padding-left:1.3rem; font-size:1.3rem; }
+
+  .lyric-popover { position:absolute; }
+}
+
+/* Small phones: popover becomes a comfortable bottom sheet */
+@media screen and (max-width:480px) {
+  .lyric-popover {
+    left:1rem !important;
+    right:1rem;
+    bottom:1rem !important;
+    top:auto !important;
+    max-width:none;
+  }
+}

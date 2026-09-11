@@ -27,6 +27,12 @@ badge:
   icon: ri:verified-badge-fill  # Enter the icon name for the badge from Iconify Design (https://icon-sets.iconify.design/)
   color: '#dfb221'  # Define the color of the badge
  
+# Lyrics collection ("Testi & Traduzioni")
+collections:
+  songs:
+    output: true
+    permalink: /testi/:name/
+
 # Defaults
 defaults:
   -
@@ -34,6 +40,12 @@ defaults:
       path: ""
     values:
       layout: "default"    
+  -
+    scope:
+      path: ""
+      type: "songs"
+    values:
+      layout: "song"
 
 # Exclude
-exclude: [README.md, Gemfile.lock, .jekyll-cache/, .github/, CHANGELOG.md, Gemfile, LICENSE.txt, funding.yml, linkhub-jekyll-theme.gemspec]
+exclude: [README.md, Gemfile.lock, .jekyll-cache/, .github/, CHANGELOG.md, Gemfile, LICENSE.txt, funding.yml, linkhub-jekyll-theme.gemspec, scripts/, LYRICS-GUIDE.md]

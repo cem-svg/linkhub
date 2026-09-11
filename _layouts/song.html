@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    {% if site.ga4 != null %}
+    {% include ga4.html %}
+    {% endif %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | escape }} — Testo e traduzione | {{ site.name }}</title>
+    <meta name="description" content="Testo originale e traduzione italiana di «{{ page.title | escape }}» — {{ site.name }}.">
+    <link rel="shortcut icon" href="{{ '/' | append: site.favicon.path | relative_url }}" type="image/{{ site.favicon.type }}">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/lyrics.css' | relative_url }}">
+</head>
+
+<body class="lyrics-page">
+    <div class="container lyrics-container">
+        <a class="back-link" href="{{ '/' | relative_url }}">&larr; Torna alla home</a>
+
+        {% if page.is_demo %}
+        <p class="lyrics-demo-badge">Pagina di esempio — non è una canzone reale, serve solo a mostrare come funziona il formato.</p>
+        {% endif %}
+
+        <header class="lyrics-header">
+            {% if page.cover %}<img class="lyrics-cover" src="{{ page.cover }}" alt="Copertina di {{ page.title | escape }}">{% endif %}
+            <div>
+                <h1 class="lyrics-title">{{ page.title | escape }}</h1>
+                {% if page.subtitle %}<p class="lyrics-subtitle">{{ page.subtitle | escape }}</p>{% endif %}
+                {% if page.listen_url %}<a class="music-card-btn lyrics-listen-btn" href="{{ page.listen_url }}" target="_blank" rel="noopener">Va senti</a>{% endif %}
+            </div>
+        </header>
+
+        <p class="lyrics-hint">Tocca o clicca le parole <mark class="lyric-note lyric-note--sample">evidenziate</mark> per leggere una nota.</p>
+
+        <div class="lyrics-columns-label">
+            <span>{{ page.language | default: "Testo originale" | escape }}</span>
+            <span>Italiano</span>
+        </div>
+
+        <div class="lyrics-body">
+            {% for section in page.lyrics %}
+            <section class="lyrics-section">
+                {% if section.section %}<h2 class="lyrics-section-title">{{ section.section | escape }}</h2>{% endif %}
+                {% for line in section.lines %}
+                <div class="lyrics-line">
+                    <p class="lyrics-orig">{{ line.orig | lyric_markup }}</p>
+                    <p class="lyrics-it">{{ line.it | escape }}</p>
+                </div>
+                {% endfor %}
+            </section>
+            {% endfor %}
+        </div>
+
+        {% if content and content != "" %}
+        <div class="lyrics-notes-free">
+            {{ content }}
+        </div>
+        {% endif %}
+    </div>
+
+    {% if page.notes %}
+    <script type="application/json" id="lyric-notes-data">{{ page.notes | jsonify }}</script>
+    {% endif %}
+
+    <div id="lyric-popover" class="lyric-popover" role="tooltip" hidden>
+        <p class="lyric-popover-text"></p>
+        <button type="button" class="lyric-popover-close" aria-label="Chiudi">&times;</button>
+    </div>
+
+    <script src="{{ '/assets/lyrics.js' | relative_url }}"></script>
+</body>
+
+</html>
