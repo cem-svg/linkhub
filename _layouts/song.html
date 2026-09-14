@@ -85,9 +85,15 @@
                 </div>
                 {% endif %}
             </div>
+
+            {% if content and content != "" %}
+            <div class="lyrics-song-intro">
+                {{ content }}
+            </div>
+            {% endif %}
         </header>
 
-        <p class="lyrics-hint">Tocca o clicca le parole <mark class="lyric-note lyric-note--sample">evidenziate</mark> per leggere una nota.</p>
+        <!-- <p class="lyrics-hint">Tocca o clicca le parole <mark class="lyric-note lyric-note--sample">evidenziate</mark> per leggere una nota.</p> -->
 
         <div class="lyrics-columns-label">
             <span>{{ page.language | default: "Testo originale" | escape }}</span>
@@ -107,12 +113,6 @@
             </section>
             {% endfor %}
         </div>
-
-        {% if content and content != "" %}
-        <div class="lyrics-notes-free">
-            {{ content }}
-        </div>
-        {% endif %}
     </div>
 
     {% if page.notes %}

@@ -1,0 +1,133 @@
+---
+layout: song
+title: "Stasira ti 'mbitu"
+slug: stasira-ti-mbitu
+subtitle: "In arrivo · 18 Settembre 2026"
+cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
+listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
+language: "Calabrese"
+
+notes:
+  cumpari: >
+    Il "cumpari" (compare) non e' un semplice amico: e' un legame quasi
+    familiare, spesso nato da un padrinato o da un'amicizia storica tra
+    famiglie, con doveri reciproci di ospitalita' e lealta' — da qui il
+    contrasto comico con l'invito "avaro" di questa canzone.
+  posta: >
+    "I sordi ara posta" (i soldi alla posta) richiama il libretto di
+    risparmio postale, il modo tradizionale in cui le famiglie del sud
+    Italia mettevano da parte i risparmi: si vive "poveri" in apparenza,
+    ma con qualcosa messo via.
+  fevraru: >
+    Il punchline della canzone: il 31 di Febbraio non esiste mai (Febbraio
+    ha al massimo 29 giorni). "Ti invito il 31 Febbraio" e' un modo
+    ironico per dire "non succedera' mai" — la promessa di grande
+    abbondanza del bridge e' presa in giro proprio da questo dettaglio.
+  maccaturi: >
+    Tovaglioli di stoffa.
+  pettinamu: >
+    "'on avire nu cazzu e pettinare" espressione tipica per intendere "non aver niente da fare"
+
+lyrics:
+  - section: "Strofa"
+    lines:
+      - orig: "[[Cumpari|cumpari]] ti 'mbitu mu veni ara casa"
+        it: "Compare, ti invito a venire a casa"
+      - orig: "A tavula è pronta, manca sulu a spisa"
+        it: "La tavola è pronta, manca solo la spesa"
+      - orig: "Mugghierama misa puru i [[maccaturi|maccaturi]]"
+        it: "Mia moglie ha messo pure i tovaglioli"
+      - orig: "Ca cu 'na lavata si ponnu riusari"
+        it: "Che con un lavaggio si possono riusare"
+      - orig: "Cogghimma cicoria pi tutta a jornata"
+        it: "Abbiamo raccolto cicoria per tutta la giornata"
+      - orig: "Cu dui ficazzani truvati p'a a strata"
+        it: "Con due fichi trovati per strada"
+      - orig: "E tre viscuttini arrubbati ari furni"
+        it: "E tre biscottini rubati dai forni"
+      - orig: "Stasira ni 'nchimu pe' tri o quattru jorni"
+        it: "Stasera ci abbuffiamo per tre o quattro giorni"
+  - section: "Ritornello"
+    lines:
+      - orig: "Caru cumpari stasira ti 'mbitu"
+        it: "Caro compare stasera ti invito"
+      - orig: "Porta 'u pana ca 'u miu è mucatu"
+        it: "Porta il pane che il mio è ammuffito"
+      - orig: "(u miu è mucatu)"
+        it: "(il mio è ammuffito)"
+      - orig: "Porta 'u vinu ca 'u miu è acitu"
+        it: "Porta il vino che il mio è aceto"
+      - orig: "(pena mia è acitu)"
+        it: "(che pena, è aceto)"
+      - orig: "Porta 'a carni ch'io mintu 'u spitu"
+        it: "Porta la carne che io metto lo spiedo"
+      - orig: "Caru cumpari stasira ti 'mbitu"
+        it: "Caro compare stasera ti invito"
+  - section: "Strofa"
+    lines:
+      - orig: "Veniti cumpari ca nui v'aspettamu"
+        it: "Venite compare che noi vi aspettiamo"
+      - orig: "Ca 'on avimu atru [[cazzu 'u pettinamu|pettinamu]]"
+        it: "Che non abbiamo altro da fare"
+      - orig: "E ppè l'occasioni, appicciamu la luci"
+        it: "E per l'occasione, accendiamo la luce"
+      - orig: "Tantu paga u vicinu e simu tutti felici"
+        it: "Tanto paga il vicino e siamo tutti felici"
+      - orig: "E guardamu I vostri vestiti aggarbati"
+        it: "E guardiamo i vostri vestiti eleganti"
+      - orig: "Chi svotano I taschi e chi muntano a testa"
+        it: "Che vi svuotano le tasche e vi montano la testa"
+      - orig: "Nui jamu 'ngiru ch'i scarpi sciancati"
+        it: "Noi giriamo con le scarpe scalcagnate"
+      - orig: "Mutanti bucati, ma 'i [[sordi ara posta|posta]]"
+        it: "Mutande bucate, ma i soldi alla posta"
+  - section: "Ritornello"
+  - section: "Strofa"
+    lines:
+      - orig: "Veni cu tutti, figghioli e parenti"
+        it: "Vieni con tutti, figli e parenti"
+      - orig: "Ca 'nzema I uagghiuni I facimu jocara"
+        it: "Che insieme i ragazzi li facciamo giocare"
+      - orig: "I vostri cu 'u loro italianu currenti"
+        it: "I vostri con il loro italiano corrente"
+      - orig: "I nostri 'u dialettu sentutu a zappara"
+        it: "I nostri col dialetto sentito zappando i campi"
+      - orig: "I mandastivu a Roma pimmu furu 'mparati"
+        it: "Li mandaste a Roma affinché fossero istruiti"
+      - orig: "Pagastivu affittu, libri e postali"
+        it: "Pagaste affitto, libri e vaglia postali"
+      - orig: "I sordi nostri i dassammu 'mbucciati"
+        it: "I soldi nostri li lasciammo nascosti"
+      - orig: "E I figghi crisciru cu i lupuminari"
+        it: "E i figli sono cresciuti con le storie sui lupi mannari"
+  - section: "Ritornello"
+    lines:
+      - orig: "Caru cumpari stasira t'imbitu"
+        it: "Caro compare stasera ti invito"
+      - orig: "Porta 'u pana ca 'u miu è mucatu"
+        it: "Porta il pane che il mio è ammuffito"
+      - orig: "(u miu è mucatu)"
+        it: "(il mio è ammuffito)"
+      - orig: "Porta 'u vinu ca 'u miu è acitu"
+        it: "Porta il vino che il mio è aceto"
+      - orig: "(pena mia è acitu)"
+        it: "(che pena, è aceto)"
+      - orig: "Porta 'a carni ch'io mintu 'u spitu"
+        it: "Porta la carne che io metto lo spiedo"
+      - orig: "Caru cumpari stasira t'imbitu"
+        it: "Caro compare stasera ti invito"
+  - section: "Bridge"
+    lines:
+      - orig: "Caru cumpari p'u prossimu 'mbitu"
+        it: "Caro compare, per il prossimo invito"
+      - orig: "Accattu caviali, 'e aragusti nu catu"
+        it: "Compro caviale, e un secchio di aragoste"
+      - orig: "On vuaddju u sparagnu mancu 'nu dinaru"
+        it: "Non voglio risparmiare nemmeno un centesimo"
+      - orig: "T'imbitu a ra casa u [[trentunu e Fevraru|fevraru]]!"
+        it: "Ti invito a casa il trentuno di Febbraio!"
+  - section: "Ritornello"
+
+---
+
+Questa canzone fa parte della serie su i "vizi capitali" ed è dedicata all'avarizia. Un invito tra compari che è tutto tranne che generoso...

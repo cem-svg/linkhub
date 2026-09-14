@@ -19,6 +19,7 @@ notes:
   sullazzu: >
     "Sullazzu" indica un momento di svago, relax o sollievo dalla fatica
     quotidiana: il tempo libero che manca al protagonista della canzone.
+  
 
 lyrics:
   - section: "Strofa 1"
@@ -43,7 +44,7 @@ lyrics:
     lines:
       - orig: "Ara fatica da 'a matina a' sìra"
         it: "Al lavoro dalla mattina alla sera"
-      - orig: "Volìa nu pùacu e tìempu u mi [[sullàzzu|sullazzu]]"
+      - orig: "Volìa nu pùacu e tìempu u mi [[sullazzu|sullazzu]]"
         it: "Volevo un po' di tempo per svagarmi"
       - orig: "E mo che tìampu 'nd'aju da vindìra"
         it: "E ora che tempo ne ho da vendere"
@@ -113,4 +114,4 @@ lyrics:
   - section: "Ritornello"
    
 ---
-
+Questa canzone è parte della serie su i "vizi capitali" ed è dedicata all'accidia (avversione ad agire, mista a noia, indifferenza e pigrizia - cit. Wikipedia) ed in dialetto Calabrese "'ncrisciu" ha un significato simile, dove indica una noia profonda, mista a stanchezza e insofferenza esistenziale. In questa canzone viene utilizzato per descrivere la "depressione meridionale".

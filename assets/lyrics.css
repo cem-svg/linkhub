@@ -79,11 +79,17 @@
 }
 .lyric-note--sample { cursor:default; }
 
-.lyrics-notes-free {
-  margin-top:2.6rem; padding-top:1.6rem;
-  border-top:1px solid rgba(255,255,255,.08);
-  color:#c7c9dc; font-size:1.35rem; line-height:1.6;
+.lyrics-song-intro {
+  flex-basis: 100%;
+  margin-bottom: .9rem;
+  padding-bottom: .9rem;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  color: #c7c9dc;
+  font-size: 1.2rem;
+  line-height: 1.55;
 }
+.lyrics-song-intro p:first-child { margin-top: 0; }
+.lyrics-song-intro p:last-child { margin-bottom: 0; }
 
 .lyrics-index-list { display:flex; flex-direction:column; gap:.9rem; margin-top:1.8rem; }
 .lyrics-demo-hint { margin-top:2.2rem; font-size:1.25rem; color:#8b8fa8; }
