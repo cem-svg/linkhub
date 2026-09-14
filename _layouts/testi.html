@@ -43,12 +43,12 @@
             {% endif %}
         </div>
 
-        {% assign demo = site.songs | where_exp: "s", "s.is_demo == true" | first %}
+        <!-- {% assign demo = site.songs | where_exp: "s", "s.is_demo == true" | first %}
         {% if demo %}
         <p class="lyrics-demo-hint text-center">
             Vuoi vedere come funzionano testo, traduzione e note? <a href="{{ demo.url | relative_url }}">Guarda la pagina di esempio &rarr;</a>
         </p>
-        {% endif %}
+        {% endif %} -->
     </div>
 </body>
 
