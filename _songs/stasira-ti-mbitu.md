@@ -27,6 +27,9 @@ notes:
     Tovaglioli di stoffa.
   pettinamu: >
     "'on avire nu cazzu e pettinare" espressione tipica per intendere "non aver niente da fare"
+  fiscottinu: >
+    fiscottìnu è un biscotto croccante a forma rotonda or di ciambella. Sono il risultato di "cudduriaddi" che, dopoe essere state divise a metà con la forchetta quando sono ancora morbide, son rimesse al forno per farle diventare croccanti
+
 
 lyrics:
   - section: "Strofa"
@@ -43,8 +46,8 @@ lyrics:
         it: "Abbiamo raccolto cicoria per tutta la giornata"
       - orig: "Cu dui ficazzani truvati p'a a strata"
         it: "Con due fichi trovati per strada"
-      - orig: "E tre viscuttini arrubbati ari furni"
-        it: "E tre biscottini rubati dai forni"
+      - orig: "E tre [[fiscuttini|fiscottino]] arrubbati ari furni"
+        it: "E tre biscottini rubati ai forni"
       - orig: "Stasira ni 'nchimu pe' tri o quattru jorni"
         it: "Stasera ci abbuffiamo per tre o quattro giorni"
   - section: "Ritornello"
@@ -76,18 +79,18 @@ lyrics:
       - orig: "E guardamu I vostri vestiti aggarbati"
         it: "E guardiamo i vostri vestiti eleganti"
       - orig: "Chi svotano I taschi e chi muntano a testa"
-        it: "Che vi svuotano le tasche e vi montano la testa"
+        it: "Che svuotano le tasche e montano la testa"
       - orig: "Nui jamu 'ngiru ch'i scarpi sciancati"
         it: "Noi giriamo con le scarpe scalcagnate"
-      - orig: "Mutanti bucati, ma 'i [[sordi ara posta|posta]]"
-        it: "Mutande bucate, ma i soldi alla posta"
+      - orig: "I mutanti bucati, ma 'i [[sordi ara posta|posta]]"
+        it: "Le mutande bucate, ma i soldi alla posta"
   - section: "Ritornello"
   - section: "Strofa"
     lines:
       - orig: "Veni cu tutti, figghioli e parenti"
         it: "Vieni con tutti, figli e parenti"
       - orig: "Ca 'nzema I uagghiuni I facimu jocara"
-        it: "Che insieme i ragazzi li facciamo giocare"
+        it: "Che insieme ai ragazzi li facciamo giocare"
       - orig: "I vostri cu 'u loro italianu currenti"
         it: "I vostri con il loro italiano corrente"
       - orig: "I nostri 'u dialettu sentutu a zappara"
@@ -95,7 +98,7 @@ lyrics:
       - orig: "I mandastivu a Roma pimmu furu 'mparati"
         it: "Li mandaste a Roma affinché fossero istruiti"
       - orig: "Pagastivu affittu, libri e postali"
-        it: "Pagaste affitto, libri e vaglia postali"
+        it: "Pagaste affitto, libri e pullman"
       - orig: "I sordi nostri i dassammu 'mbucciati"
         it: "I soldi nostri li lasciammo nascosti"
       - orig: "E I figghi crisciru cu i lupuminari"
