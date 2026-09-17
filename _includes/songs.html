@@ -21,6 +21,12 @@
         {% if f.cd %}
             <a href="{{ f.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
         {% endif %}
+        {% if f.lyrics %}
+        {% assign lp = site.songs | where: "slug", f.lyrics | first %}
+        {% if lp %}
+            <a href="{{ lp.url | relative_url }}"><span class="music-card-btn" style="background-color: #7155fa;">Testo</span></a>
+        {% endif %}
+        {% endif %}
       </div>
 
     
@@ -61,6 +67,12 @@
         <a href="{{ item.url }}" target="_blank"><span class="music-card-btn">Va senti</span></a>
         {% if item.cd %}
             <a href="{{ item.cd }}" target="_blank"><span class="music-card-btn" style="background-color: #d74747;">Accatta u CD</span></a>
+        {% endif %}
+        {% if item.lyrics %}
+        {% assign lp = site.songs | where: "slug", item.lyrics | first %}
+        {% if lp %}
+            <a href="{{ lp.url | relative_url }}"><span class="music-card-btn" style="background-color: #7155fa;">Testo</span></a>
+        {% endif %}
         {% endif %}
         {% endif %}
     </div>

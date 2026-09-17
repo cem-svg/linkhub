@@ -19,8 +19,7 @@ notes:
     Italia mettevano da parte i risparmi: si vive "poveri" in apparenza,
     ma con qualcosa messo via.
   fevraru: >
-    Il punchline della canzone: il 31 di Febbraio non esiste mai (Febbraio
-    ha al massimo 29 giorni). "Ti invito il 31 Febbraio" e' un modo
+    Il 31 di Febbraio non esiste mai. E' un modo
     ironico per dire "non succedera' mai" — la promessa di grande
     abbondanza del bridge e' presa in giro proprio da questo dettaglio.
   maccaturi: >

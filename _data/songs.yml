@@ -1,18 +1,19 @@
 featured:
-  title: "Mi 'ncrisciu"
-  subtitle: "Nesciu u 28 Agustu 2026"
-  image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E153D688-3FB4-40AA-B11907587478A8C1--0--3322349--cover.png?fm=jpg&q=75&w=800&s=70e68604bc19e35478cf24a2b38a663e
-  url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/mi-ncrisciu
-  lyrics: mi-ncrisciu
+  title: "Stasira ti 'mbitu"
+  subtitle: "Nesciu u 18 Settembre 2026"
+  image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
+  url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
+  lyrics: stasira-ti-mbitu
   
 buttons:
-  - category: "In arrivo. Chiamalu ca vene!"
-    items:
-      - title: "Stasira ti 'mbitu"
-        subtitle: "Nesce u 18 Settembre 2026"
-        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
-        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
-        pre: true
+  # - category: "In arrivo. Chiamalu ca vene!"
+  #   items:
+  #     - title: "Stasira ti 'mbitu"
+  #       subtitle: "Nesce u 18 Settembre 2026"
+  #       image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
+  #       url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
+  #       pre: true
+  #       lyrics: stasira-ti-mbitu
 
   - category: "Albums"
     items:  
@@ -35,6 +36,7 @@ buttons:
         subtitle: "Cinghiali Elettrici Multifase"
         image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--1BDD5C0B-C335-4347-96434F298D405CD8--0--2306805--coverwt.png?fm=jpg&q=75&w=800&s=255e3077711f6cff8cf032c4bcbc11c8
         url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/e-sa-manera
+        lyrics: e-sa-manera
   
       - title: "Cugghiuniandu"
         subtitle: "Cinghiali Elettrici Multifase"
