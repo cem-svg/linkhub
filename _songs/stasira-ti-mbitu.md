@@ -46,7 +46,7 @@ lyrics:
         it: "Abbiamo raccolto cicoria per tutta la giornata"
       - orig: "Cu dui ficazzani truvati p'a a strata"
         it: "Con due fichi trovati per strada"
-      - orig: "E tre [[fiscuttini|fiscottino]] arrubbati ari furni"
+      - orig: "E tre [[fiscuttini|fiscottinu]] arrubbati ari furni"
         it: "E tre biscottini rubati ai forni"
       - orig: "Stasira ni 'nchimu pe' tri o quattru jorni"
         it: "Stasera ci abbuffiamo per tre o quattro giorni"
