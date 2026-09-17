@@ -28,7 +28,7 @@ notes:
   pettinamu: >
     "'on avire nu cazzu e pettinare" espressione tipica per intendere "non aver niente da fare"
   fiscottinu: >
-    fiscottìnu è un biscotto croccante a forma rotonda or di ciambella. Sono il risultato di "cudduriaddi" che, dopoe essere state divise a metà con la forchetta quando sono ancora morbide, son rimesse al forno per farle diventare croccanti
+    fiscottìnu è un biscotto croccante a forma rotonda o di ciambella. Sono il risultato di "cudduriaddi" che, dopoe essere state divise a metà con la forchetta quando sono ancora morbide, son rimesse al forno per farle diventare croccanti
 
 
 lyrics:
