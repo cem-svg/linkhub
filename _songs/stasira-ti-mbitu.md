@@ -6,6 +6,9 @@ subtitle: "In arrivo · 18 Settembre 2026"
 cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
 listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
 language: "Calabrese"
+player:
+  type: youtube-audio   # solo audio, senza video (usa "youtube" per il piccolo video)
+  id: xbH4TA33mjo       # https://www.youtube.com/watch?v=xbH4TA33mjo (audio ufficiale su DistroKid/YouTube)
 
 notes:
   cumpari: >
@@ -26,6 +29,8 @@ notes:
     Tovaglioli di stoffa.
   pettinamu: >
     "'on avire nu cazzu e pettinare" espressione tipica per intendere "non aver niente da fare"
+  penamia: >
+    espressione di dolore e pena alla notizia di una disgrazia, reale o supposta che sia
   fiscottinu: >
     fiscottìnu è un biscotto croccante a forma rotonda o di ciambella. Sono il risultato di "cudduriaddi" che, dopoe essere state divise a metà con la forchetta quando sono ancora morbide, son rimesse al forno per farle diventare croccanti
 
@@ -59,8 +64,8 @@ lyrics:
         it: "(il mio è ammuffito)"
       - orig: "Porta 'u vinu ca 'u miu è acitu"
         it: "Porta il vino che il mio è aceto"
-      - orig: "(pena mia è acitu)"
-        it: "(che pena, è aceto)"
+      - orig: "([[penamìa|penamia]] è acitu)"
+        it: "([[penamìa|penamia]], è aceto)"
       - orig: "Porta 'a carni ch'io mintu 'u spitu"
         it: "Porta la carne che io metto lo spiedo"
       - orig: "Caru cumpari stasira ti 'mbitu"
@@ -103,21 +108,6 @@ lyrics:
       - orig: "E I figghi crisciru cu i lupuminari"
         it: "E i figli sono cresciuti con le storie sui lupi mannari"
   - section: "Ritornello"
-    lines:
-      - orig: "Caru cumpari stasira t'imbitu"
-        it: "Caro compare stasera ti invito"
-      - orig: "Porta 'u pana ca 'u miu è mucatu"
-        it: "Porta il pane che il mio è ammuffito"
-      - orig: "(u miu è mucatu)"
-        it: "(il mio è ammuffito)"
-      - orig: "Porta 'u vinu ca 'u miu è acitu"
-        it: "Porta il vino che il mio è aceto"
-      - orig: "(pena mia è acitu)"
-        it: "(che pena, è aceto)"
-      - orig: "Porta 'a carni ch'io mintu 'u spitu"
-        it: "Porta la carne che io metto lo spiedo"
-      - orig: "Caru cumpari stasira t'imbitu"
-        it: "Caro compare stasera ti invito"
   - section: "Bridge"
     lines:
       - orig: "Caru cumpari p'u prossimu 'mbitu"
