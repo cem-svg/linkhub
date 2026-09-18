@@ -2,7 +2,7 @@
 layout: song
 title: "Stasira ti 'mbitu"
 slug: stasira-ti-mbitu
-subtitle: "In arrivo · 18 Settembre 2026"
+subtitle: "Singolo"
 cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
 listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
 language: "Calabrese"
@@ -30,9 +30,9 @@ notes:
   pettinamu: >
     "'on avire nu cazzu e pettinare" espressione tipica per intendere "non aver niente da fare"
   penamia: >
-    espressione di dolore e pena alla notizia di una disgrazia, reale o supposta che sia
+    Espressione di dolore e pena alla notizia di una disgrazia, reale o supposta che sia
   fiscottinu: >
-    fiscottìnu è un biscotto croccante a forma rotonda o di ciambella. Sono il risultato di "cudduriaddi" che, dopoe essere state divise a metà con la forchetta quando sono ancora morbide, son rimesse al forno per farle diventare croccanti
+    Fiscottìnu è un biscotto croccante a forma rotonda o di ciambella. Sono il risultato di "cudduriaddi" che, dopoe essere state divise a metà con la forchetta quando sono ancora morbide, son rimesse al forno per farle diventare croccanti
 
 
 lyrics:
@@ -65,7 +65,7 @@ lyrics:
       - orig: "Porta 'u vinu ca 'u miu è acitu"
         it: "Porta il vino che il mio è aceto"
       - orig: "([[penamìa|penamia]] è acitu)"
-        it: "([[penamìa|penamia]], è aceto)"
+        it: "(penamìa, è aceto)"
       - orig: "Porta 'a carni ch'io mintu 'u spitu"
         it: "Porta la carne che io metto lo spiedo"
       - orig: "Caru cumpari stasira ti 'mbitu"
