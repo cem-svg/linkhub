@@ -6,14 +6,14 @@ featured:
   lyrics: stasira-ti-mbitu
   
 buttons:
-  # - category: "In arrivo. Chiamalu ca vene!"
-  #   items:
-  #     - title: "Stasira ti 'mbitu"
-  #       subtitle: "Nesce u 18 Settembre 2026"
-  #       image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
-  #       url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
-  #       pre: true
-  #       lyrics: stasira-ti-mbitu
+  - category: "In arrivo. Chiamalu ca vene!"
+    items:
+      - title: "Arripati ca ti pisciu"
+        subtitle: "Nesce u 9 Ottobre 2026"
+        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E0DD8988-294B-48E5-BCF717C6A733FB42--0--2312023--cover.png?fm=jpg&q=75&w=800&s=8bd2d2ffe2ffb92162dd389e187e9632
+        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/arripati-ca-ti-pisciu
+        pre: true
+        # lyrics: arripati-ca-ti-pisciu
 
   - category: "Albums"
     items:  
