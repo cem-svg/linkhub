@@ -97,9 +97,9 @@ lyrics:
       - orig: "E quandu chi aju u viju 'ncùnu dunu"
         it: "E quando capita che vedo qualcuno"
       - orig: "Cu' u tìempu chiù m'addùnu"
-        it: "Con il tempo me ne accorgo di più"
+        it: "Con il tempo più mi accorgo"
       - orig: "Ca sulu ca ci pìanzu, e già"
-        it: "Che solo il pensier, che già"
+        it: "Che al solo pensarci già"
   - section: "Ritornello"
   - section: "Ponte"
     lines:

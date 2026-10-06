@@ -11,10 +11,6 @@ player:
   id: 79NKdghjGyQ   # https://www.youtube.com/watch?v=79NKdghjGyQ (audio ufficiale su DistroKid/YouTube)
 
 notes:
-  pacchia: >
-    "Paccia manijata" e' una parola tipica del dialetto siculo-calabrese: indica la
-    bella vita, un momento di puro godimento senza pensieri — qui riferita
-    all'insalata appena condita, pronta da mangiare.
   manera: >
     "'E sa manera" (letteralmente "in questa maniera") e' un modo di dire
     che significa "e' cosi', va cosi'": descrive un rito di famiglia che si
@@ -35,10 +31,10 @@ lyrics:
         it: "Di sale"
       - orig: "'na pizzicata"
         it: "Una pizzicata"
-      - orig: "e na paccia"
-        it: "e una pazza"
-      - orig: "E na paccia manijata"
-        it: "E una pazza mescolata"
+      - orig: "e d'a paccia"
+        it: "e dalla pazza"
+      - orig: "E d'a paccia manijata"
+        it: "E mescolata dalla pazza"
   - section: "Strofa"
     lines:
       - orig: "Ara seggia"
@@ -46,15 +42,15 @@ lyrics:
       - orig: "A famiddja è già assittata"
         it: "La famiglia è già seduta"
       - orig: "Patra, nonnu fiddju e zianu"
-        it: "Padre, nonno, figlio e zio"
+        it: "Padre, nonno, figlio e suo zio"
       - orig: "Tutti pronti ara scialàta"
-        it: "Tutti pronti per la scialata"
+        it: "Tutti pronti per l'abbuffata"
       - orig: "Abbula l'uaddju"
         it: "Vola l'olio"
       - orig: "Tutta a tavula inziddjata"
-        it: "Tutta la tavola imbandita"
-      - orig: "Chi e quando ero zitiddju"
-        it: "Che, quando ero un ragazzino"
+        it: "Tutta la tavola schizzata"
+      - orig: "Chi 'e quando ero zitiddju"
+        it: "Che, da quando ero un ragazzino"
       - orig: "L'aju visto sempa fari"
         it: "L'ho sempre visto fare"
   - section: "Ritornello"
@@ -106,7 +102,7 @@ lyrics:
       - orig: "E ogni estate quandu torna"
         it: "E ogni estate quando torna"
       - orig: "Guarda u zitu chi ave i corna"
-        it: "Guarda il fidanzato che è cornuto"
+        it: "Guarda il fidanzato che ha le corna"
   - section: "Ritornello"
   - section: "Bridge"
     lines:
