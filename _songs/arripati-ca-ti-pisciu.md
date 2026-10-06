@@ -22,7 +22,7 @@ notes:
   guardati: >
     "Guardati a sorta", è un modo per dire "fatti gli affari tuoi".
   sbertu: >
-    "Sberto" rappresenta una persone sveglia, intelligente e/o esperta.
+    "Sberto" rappresenta una persone sveglia, furba, intelligente e/o esperta.
   Cardinali: >
     Cardinale (CZ), è un piccolo comune nell'entroterra Catanzarese che non ha una marina (zona di mare) adiacente. Dunque l'espressione "Ca quantu vali tu, mancu a marina e Cardinali" è un modo per dire "non vali niente".
 
@@ -42,21 +42,21 @@ lyrics:
       - orig: "Ca a mia mi guardu eu"
         it: "Che io mi guardo da solo"
       - orig: "Mo nesci e sa strata"
-        it: "Adesso esci da questa strada"
+        it: "Togliti da questa strada"
       - orig: "Ca ha mu passa u [[mazzacane|mazzacane]] meu"
         it: "Che deve passare il mio bestione"
   - section: "Ritornello"
     lines:
       - orig: "[[Arrìpati ca ti pisciu|pisciu]]"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "Ca quantu vali tu, mancu a [[marina e Cardinali|Cardinali]]"
-        it: "Perché tu non vali quanto la marina di Cardinale"
+        it: "Perché tu non vali neanche quanto la marina di Cardinale"
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "Ca n'atru cuomu a mia o 'ru trovi, ancora l'hannu e 'mbentari"
         it: "Perché un altro come me non lo trovi, lo devono ancora inventare"
   - section: "Strofa"
@@ -70,7 +70,7 @@ lyrics:
       - orig: "Si voi u lavoru fattu bonu, ha' mu paghi a pila"
         it: "Se vuoi il lavoro fatto bene, devi pagare i soldoni"
       - orig: "Senti a mia chi su [[sbertu|sbertu]]"
-        it: "Ascolta me che sono esperto"
+        it: "Ascolta me che sono furbo"
       - orig: "Io ccu dece euru u fàcia megghiu"
         it: "Io con dieci euro lo facevo meglio"
       - orig: "No' comu tutti sti 'ngegnieri"
@@ -92,21 +92,21 @@ lyrics:
   - section: "Outro (cori sovrapposti)"
     lines:
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "([[Vantati culu miu ca si cacatu|cacatu]])"
-        it: "(Vantati, culo mio, che sei pieno di merda)"
+        it: "(Vantati, culo mio di essere sporco)"
       - orig: "Ca quantu vali tu, mancu a marina e Cardinali"
-        it: "Perché tu non vali quanto la marina di Cardinali"
+        it: "Perché tu non vali neanche quanto la marina di Cardinale"
       - orig: "(Cu sulu si vanta cacatu si sente)"
-        it: "(Chi si vanta da solo si sente pieno di merda)"
+        it: "(Chi si vanta continuamente si sente sporco)"
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "Arrìpati ca ti pisciu"
-        it: "Spostati che ti piscio addosso"
+        it: "Vatti a riparare che ti piscio addosso"
       - orig: "(Vantati culu miu ca si cacatu)"
-        it: "(Vantati, culo mio, che sei pieno di merda)"
+        it: "(Vantati, culo mio di essere sporco)"
       - orig: "Ca n'atru cuomu a mia o 'ru trovi ancora l'hannu e 'mbentari"
         it: "Perché un altro come me non lo trovi, lo devono ancora inventare"
 ---
