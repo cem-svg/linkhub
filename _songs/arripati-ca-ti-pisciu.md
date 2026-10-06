@@ -22,7 +22,7 @@ notes:
   guardati: >
     "Guardati a sorta", è un modo per dire "fatti gli affari tuoi".
   sbertu: >
-    "Sberto" rappresenta una persone sveglia, furba, intelligente e/o esperta.
+    "Sberto" rappresenta una persona intelligente, sveglia, furba, scaltra, pronta, attiva.
   Cardinali: >
     Cardinale (CZ), è un piccolo comune nell'entroterra Catanzarese che non ha una marina (zona di mare) adiacente. Dunque l'espressione "Ca quantu vali tu, mancu a marina e Cardinali" è un modo per dire "non vali niente".
 
