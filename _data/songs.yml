@@ -1,19 +1,19 @@
 featured:
-  title: "Stasira ti 'mbitu"
-  subtitle: "Nesciu u 18 Settembre 2026"
-  image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
-  url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
-  lyrics: stasira-ti-mbitu
+  title: "Arripati ca ti pisciu"
+  subtitle: "Nesce u 9 Ottobre 2026"
+  image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E0DD8988-294B-48E5-BCF717C6A733FB42--0--2312023--cover.png?fm=jpg&q=75&w=800&s=8bd2d2ffe2ffb92162dd389e187e9632
+  url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/arripati-ca-ti-pisciu
+  lyrics: arripati-ca-ti-pisciu
   
 buttons:
   - category: "In arrivo. Chiamalu ca vene!"
     items:
-      - title: "Arripati ca ti pisciu"
-        subtitle: "Nesce u 9 Ottobre 2026"
-        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E0DD8988-294B-48E5-BCF717C6A733FB42--0--2312023--cover.png?fm=jpg&q=75&w=800&s=8bd2d2ffe2ffb92162dd389e187e9632
-        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/arripati-ca-ti-pisciu
+      - title: "CHIMMU!"
+        subtitle: "Nesce u 30 Ottobre 2026"
+        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--9C737EE5-7BD1-4FF7-B888CF713B09DEC8--0--2832962--chimmu.png?fm=jpg&q=75&w=800&s=330ec75c127fefe2169966695585b78c
+        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chimmu
         pre: true
-        # lyrics: arripati-ca-ti-pisciu
+        # lyrics: chimmu
 
   - category: "Albums"
     items:  
@@ -26,6 +26,12 @@ buttons:
       
   - category: "Singoli"
     items:
+      - title: "Stasira ti 'mbitu"
+        subtitle: "Cinghiali Elettrici Multifase"
+        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
+        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/stasira-ti-mbitu
+        lyrics: stasira-ti-mbitu
+        
       - title: "Mi 'ncrisciu"
         subtitle: "Cinghiali Elettrici Multifase"
         image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E153D688-3FB4-40AA-B11907587478A8C1--0--3322349--cover.png?fm=jpg&q=75&w=800&s=70e68604bc19e35478cf24a2b38a663e
