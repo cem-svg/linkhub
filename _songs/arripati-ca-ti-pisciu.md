@@ -2,7 +2,7 @@
 layout: song
 title: "Arripati ca ti pisciu"
 slug: arripati-ca-ti-pisciu
-subtitle: "In arrivo · 9 Ottobre 2026"
+subtitle: "Singolo"
 cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E0DD8988-294B-48E5-BCF717C6A733FB42--0--2312023--cover.png?fm=jpg&q=75&w=800&s=8bd2d2ffe2ffb92162dd389e187e9632
 listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/arripati-ca-ti-pisciu
 language: "Calabrese"
