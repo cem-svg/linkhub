@@ -1,24 +1,24 @@
 featured:
-  title: "Arripati ca ti pisciu"
-  subtitle: "Nesce u 9 Ottobre 2026"
-  image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E0DD8988-294B-48E5-BCF717C6A733FB42--0--2312023--cover.png?fm=jpg&q=75&w=800&s=8bd2d2ffe2ffb92162dd389e187e9632
-  url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/arripati-ca-ti-pisciu
-  lyrics: arripati-ca-ti-pisciu
+  title: "CHIMMU!"
+  subtitle: "Nesciu u 30 Ottobre 2026"
+  image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--9C737EE5-7BD1-4FF7-B888CF713B09DEC8--0--2832962--chimmu.png?fm=jpg&q=75&w=800&s=330ec75c127fefe2169966695585b78c
+  url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chimmu
+  lyrics: chimmu
   
 buttons:
-  - category: "In arrivo. Chiamalu ca vene!"
-    items:
-      - title: "CHIMMU!"
-        subtitle: "Nesce u 30 Ottobre 2026"
-        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--9C737EE5-7BD1-4FF7-B888CF713B09DEC8--0--2832962--chimmu.png?fm=jpg&q=75&w=800&s=330ec75c127fefe2169966695585b78c
-        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chimmu
-        pre: true
-        lyrics: chimmu
+  # - category: "In arrivo. Chiamalu ca vene!"
+  #   items:
+  #     - title: "CHIMMU!"
+  #       subtitle: "Nesce u 30 Ottobre 2026"
+  #       image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--9C737EE5-7BD1-4FF7-B888CF713B09DEC8--0--2832962--chimmu.png?fm=jpg&q=75&w=800&s=330ec75c127fefe2169966695585b78c
+  #       url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chimmu
+  #       pre: true
+  #       lyrics: chimmu
 
   - category: "Albums"
     items:  
       - title: "Ridimu pe' no' ciangira"
-        subtitle: "In streaming e puru 'nta u CD"
+        subtitle: "Cinghiali Elettrici Multifase"
         image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--30A9DEDB-B70B-4CFB-9D70F17DAD974C40--0--1671857--cover.png?fm=jpg&q=75&w=800&s=dca1bd255404e446cb3d16c287a4bcea
         url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/ridimu-pe-no-ciangira
         # cd: "https://wall.cdclick-europe.com/projects/Cinghiali-Elettrici-Multifase-Ridimu-pe-no-ciangira"
@@ -26,6 +26,12 @@ buttons:
       
   - category: "Singoli"
     items:
+      - title: "Arripati ca ti pisciu"
+        subtitle: "Cinghiali Elettrici Multifase"
+        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--E0DD8988-294B-48E5-BCF717C6A733FB42--0--2312023--cover.png?fm=jpg&q=75&w=800&s=8bd2d2ffe2ffb92162dd389e187e9632
+        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/arripati-ca-ti-pisciu
+        lyrics: arripati-ca-ti-pisciu
+  
       - title: "Stasira ti 'mbitu"
         subtitle: "Cinghiali Elettrici Multifase"
         image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--F9652819-C335-4D34-8C3C94C871FF45E6--0--2303553--cover.png?fm=jpg&q=75&w=800&s=0f3f60f89830eb9dc96d221f4f187e34
