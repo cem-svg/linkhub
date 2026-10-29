@@ -6,6 +6,9 @@ subtitle: "Singolo"
 cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--9C737EE5-7BD1-4FF7-B888CF713B09DEC8--0--2832962--chimmu.png?fm=jpg&q=75&w=800&s=330ec75c127fefe2169966695585b78c
 listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chimmu
 language: "Calabrese"
+player:
+  type: youtube-audio   # solo audio, senza video (usa "youtube" per il piccolo video)
+  id: 4p535niJy8k       # https://www.youtube.com/watch?v=4p535niJy8k (audio ufficiale su DistroKid/YouTube)
 
 notes:
   apa: >
