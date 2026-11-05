@@ -4,6 +4,7 @@ title: "Chiddru chi mi fha 'nzonnara"
 slug: chiddru-chi-mi-fha-nzonnara
 subtitle: "Singolo"
 cover: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--15F89467-D656-4049-8A93F7B0557D1C07--0--2906603--coverwt.png?fm=jpg&q=75&w=800&s=d02b46dee578125f47b8f508e8ad64ba
+listen_url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chiddru-chi-mi-fha-nzonnara
 language: "Calabrese"
 
 notes:
