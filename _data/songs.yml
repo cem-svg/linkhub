@@ -6,14 +6,14 @@ featured:
   lyrics: chimmu
   
 buttons:
-  # - category: "In arrivo. Chiamalu ca vene!"
-  #   items:
-  #     - title: "CHIMMU!"
-  #       subtitle: "Nesce u 30 Ottobre 2026"
-  #       image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--9C737EE5-7BD1-4FF7-B888CF713B09DEC8--0--2832962--chimmu.png?fm=jpg&q=75&w=800&s=330ec75c127fefe2169966695585b78c
-  #       url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chimmu
-  #       pre: true
-  #       lyrics: chimmu
+  - category: "In arrivo. Chiamalu ca vene!"
+    items:
+      - title: "Chiddru chi mi fha 'nzonnara"
+        subtitle: "Nesce u 20 Novembre 2026"
+        image: https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F6601363--15F89467-D656-4049-8A93F7B0557D1C07--0--2906603--coverwt.png?fm=jpg&q=75&w=800&s=d02b46dee578125f47b8f508e8ad64ba
+        url: https://distrokid.com/hyperfollow/cinghialielettricimultifase/chiddru-chi-mi-fha-nzonnara
+        pre: true
+        lyrics: chiddru
 
   - category: "Albums"
     items:  
