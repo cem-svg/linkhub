@@ -93,4 +93,4 @@ lyrics:
   - section: "Ritornello"
 ---
 
-Questa canzone fa parte della serie sui “vizzi" capitali ed è dedicata alla lussuria. Il titolo, “Chiddru chi mi fha 'nzonnara” (quello che mi fa sognare), rimanda a “u pilu”, qui usato in senso generico per il desiderio carnale che unisce uomini e donne, senza distinzione di genere.
+Questa canzone fa parte della serie sui “vizzi" capitali ed è dedicata alla lussuria. Il titolo, “Chiddru chi mi fha 'nzonnara” (quello che mi fa sognare), rimanda a “u pilu”, qui usato in senso generico per il desiderio carnale che accomuna uomini e donne, senza distinzione di genere.
